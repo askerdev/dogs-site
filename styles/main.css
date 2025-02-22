@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+fieldset {
+  border: none;
+}
+
+html,
+body {
+  background-color: #f9f4f0;
+}
+
+.logo {
+  width: max-content;
+  height: max-content;
+  color: #272727;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #396448;
+}
+
+.logo-white {
+  color: #f9f4f0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 80px;
+  gap: 80px;
+  align-items: center;
+}
+
+.btn {
+  padding: 20px 40px;
+  max-width: 233px;
+  width: 100%;
+  background-color: #396448;
+  border-radius: 20px;
+  font-family: "BebasNeue";
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn.white {
+  background-color: #f9f4f0;
+  color: #396448;
+}

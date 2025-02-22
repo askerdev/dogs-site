@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/fonts/BebasNeue/BebasNeue Bold.ttf") format("truetype"),
+    url("/assets/fonts/BebasNeue/BebasNeue Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/fonts/BebasNeue/BebasNeue Book.ttf") format("truetype"),
+    url("/assets/fonts/BebasNeue/BebasNeue Book.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/fonts/BebasNeue/BebasNeue Light.ttf") format("truetype"),
+    url("/assets/fonts/BebasNeue/BebasNeue Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/fonts/BebasNeue/BebasNeue Regular.ttf") format("truetype"),
+    url("/assets/fonts/BebasNeue/BebasNeue Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/assets/fonts/BebasNeue/BebasNeue Thin.ttf") format("truetype"),
+    url("/assets/fonts/BebasNeue/BebasNeue Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/assets/fonts/Raleway/Raleway.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/assets/fonts/Raleway/Raleway-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}

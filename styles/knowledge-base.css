@@ -1,0 +1,175 @@
+.knowledge-base {
+  background-color: #396448;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.knowledge-base-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.knowledge-base__list-container {
+  width: 100%;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+}
+
+.knowledge-base__list {
+  display: flex;
+  gap: 10px;
+  color: white;
+  width: 100%;
+  overflow: scroll;
+}
+
+.knowledge-base__card {
+  width: 290px;
+  height: 250px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.knowledge-base__card__shadow {
+  border-radius: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: #ab8264;
+  filter: blur(48px);
+}
+
+.knowledge-base__card p {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-family: "BebasNeue";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  z-index: 10;
+}
+
+.knowledge-base__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.knowledge-base-contianer__header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.knowledge-base-contianer__header h2 {
+  font-family: "BebasNeue";
+  font-weight: bold;
+  font-size: 36px;
+  color: #f9f4f0;
+  line-height: 43.2px;
+}
+
+.knowledge-base-contianer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.knowledge-base-section__tab-list {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.knowledge-base-section__tab-item.active {
+  background-color: #396448;
+  color: #f9f4f0;
+}
+
+.knowledge-base-section__tab-item {
+  background-color: #f9f4f0;
+  border: 1px solid #396448;
+  border-bottom: none;
+  color: #396448;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "BebasNeue";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 16px;
+}
+
+.knowledge-base-section__tab-list-carousel {
+  width: 100%;
+  max-width: max-content;
+}
+
+@media screen and (min-width: 1024px) {
+  .knowledge-base__card p {
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  .knowledge-base__card {
+    width: 360px;
+    height: 312px;
+  }
+
+  .knowledge-base-contianer {
+    gap: 40px;
+  }
+
+  .knowledge-base-contianer__header {
+    gap: 40px;
+  }
+
+  .knowledge-base {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (min-width: 1340px) {
+  .knowledge-base-contianer__header h2 {
+    font-size: 68px;
+    line-height: 81.6px;
+  }
+
+  .knowledge-base__card p {
+    bottom: 47px;
+    left: 30px;
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+
+  .knowledge-base__card {
+    width: 427px;
+    height: 370px;
+  }
+
+  .knowledge-base {
+    padding: 80px 15px;
+  }
+}
