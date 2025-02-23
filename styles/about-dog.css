@@ -1,0 +1,294 @@
+.about-dog {
+  background-color: #ab8264;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.about-dog-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-dog__list-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  justify-content: center;
+}
+
+.about-dog-contianer__header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.about-dog-contianer__header h2 {
+  font-family: "BebasNeue";
+  font-weight: bold;
+  font-size: 36px;
+  color: #f9f4f0;
+  line-height: 43.2px;
+}
+
+.about-dog-contianer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.about-dog-section__tab-list {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.about-dog-section__tab-item.active {
+  background-color: #ab8264;
+  color: #f9f4f0;
+}
+
+.about-dog-section__tab-item {
+  background-color: #f9f4f0;
+  border: 1px solid #ab8264;
+  border-bottom: none;
+  color: #ab8264;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "BebasNeue";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 16px;
+}
+
+.about-dog-section__tab-list-carousel {
+  width: 100%;
+  max-width: max-content;
+}
+
+.about-dog-image {
+  border-radius: 30px;
+  width: 290px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.about-dog-description-card {
+  border-radius: 30px;
+  background-color: #efe9e3;
+  padding: 20px 16px;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-dog-description-card h4 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "BebasNeue";
+  line-height: 24px;
+  color: #272727;
+}
+
+.about-dog-description-card p {
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #272727;
+}
+
+.about-dog-review-card {
+  padding: 20px 16px;
+  border-radius: 30px;
+  background-color: #efe9e3;
+  width: 290px;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-dog-mobile-hidden {
+  display: none;
+}
+
+.about-dog-score-list {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.about-dog-review-card h4 {
+  font-family: "BebasNeue";
+  color: #272727;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about-dog-review-card p {
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 19.6px;
+}
+
+.about-dog-review-card-only-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-dog__list-container {
+    gap: 20px;
+    grid-template-rows: 263px 149px 143px;
+  }
+
+  .about-dog-description-card {
+    gap: 20px;
+    width: 360px;
+    height: 263px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .about-dog-description-card h4 {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+
+  .about-dog-review-card-other {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-dog-image {
+    width: 360px;
+    height: 433px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .about-dog-review-card.first {
+    width: 360px;
+    height: 149px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+
+  .about-dog-review-card {
+    width: 233px;
+    height: 143px;
+  }
+
+  .about-dog-mobile-hidden {
+    display: flex;
+  }
+
+  .about-dog-contianer {
+    gap: 40px;
+  }
+
+  .about-dog-contianer__header {
+    gap: 40px;
+  }
+
+  .about-dog {
+    padding: 60px 15px;
+  }
+}
+
+@media screen and (min-width: 1340px) {
+  .about-dog__list-container {
+    gap: 20px;
+    grid-template-columns: 653px 313px 313px;
+    grid-template-rows: 290px 194px 194px;
+  }
+
+  .about-dog-image {
+    width: 653px;
+    height: 731px;
+  }
+
+  .about-dog-description-card {
+    width: 655px;
+    height: 290px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+
+  .about-dog-review-card.first {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: 313px;
+    height: 194px;
+  }
+
+  .about-dog-review-card {
+    width: 313px;
+    height: 194px;
+  }
+
+  .about-dog-review-card.second {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .about-dog-review-card.third {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+
+  .about-dog-review-card.fourth {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+  }
+
+  .about-dog-review-card-other {
+    display: none;
+  }
+
+  .about-dog-review-card-only-desktop {
+    display: flex;
+  }
+
+  .about-dog-contianer__header h2 {
+    font-size: 68px;
+    line-height: 81.6px;
+  }
+
+  .about-dog {
+    padding: 80px 15px;
+  }
+}
