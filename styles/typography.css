@@ -24,8 +24,8 @@
 
 @font-face {
   font-family: "BebasNeue";
-  src: url("assets/fonts/BebasNeue/BebasNeue Regular.ttf") format("truetype"),
-    url("assets/fonts/BebasNeue/BebasNeue Regular.otf") format("opentype");
+  src: url("/assets/fonts/BebasNeue/BebasNeue Regular.ttf") format("truetype"),
+    url("/assets/fonts/BebasNeue/BebasNeue Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
 }
