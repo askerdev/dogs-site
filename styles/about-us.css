@@ -1,0 +1,169 @@
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.about-us-section h2 {
+  font-family: "BebasNeue";
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 43.2px;
+}
+
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-us-image {
+  width: 290px;
+  height: 172px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.about-us-item-description {
+  width: 290px;
+  padding: 20px;
+  font-family: "Raleway";
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #272727;
+  background-color: #efe9e3;
+  border-radius: 20px;
+}
+
+.about-us-grid {
+  display: none;
+}
+
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-image.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-us-list {
+    display: none;
+  }
+
+  .about-us-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-us-grid-header {
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-us-grid-footer {
+    display: flex;
+    gap: 20px;
+  }
+
+  .about-us-image.first {
+    width: 170px;
+    height: 150px;
+  }
+
+  .about-us-image.second {
+    width: 230px;
+    height: 150px;
+  }
+
+  .about-us-image.third {
+    width: 150px;
+    height: 108px;
+  }
+
+  .about-us-item-description.first {
+    width: 300px;
+    height: 150px;
+    padding: 30px 25px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .about-us-description-right-bottom-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+  }
+
+  .about-us-item-description.second {
+    width: 320px;
+    height: 108px;
+    padding: 20px;
+  }
+
+  .about-us-item-description.third {
+    width: 230px;
+    height: 108px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1340px) {
+  .about-us-section h2 {
+    font-size: 68px;
+    line-height: 81.6px;
+  }
+
+  .about-us-image.first {
+    width: 350px;
+    height: 260px;
+  }
+
+  .about-us-image.second {
+    display: none;
+  }
+
+  .about-us-image.third {
+    width: 190px;
+    height: 148px;
+  }
+
+  .about-us-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .about-us-image.desktop {
+    display: block;
+    width: 370px;
+    height: 428px;
+  }
+
+  .about-us-item-description.first {
+    width: 580px;
+    height: 260px;
+    padding: 48px 105px 57px 56px;
+    font-size: 28px;
+    line-height: 30.8px;
+  }
+
+  .about-us-item-description.second {
+    width: 420px;
+    height: 148px;
+    padding: 30px;
+  }
+
+  .about-us-item-description.third {
+    width: 300px;
+    height: 148px;
+    padding: 30px;
+  }
+}

@@ -291,4 +291,26 @@
   .about-dog {
     padding: 80px 15px;
   }
+
+  .about-dog-description-card h4 {
+    font-size: 28px;
+  }
+
+  .about-dog-description-card p {
+    font-size: 18px;
+  }
+
+  .about-dog-review-card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-dog-review-card-header h4 {
+    font-size: 28px;
+  }
+
+  .about-dog-review-card p {
+    font-size: 18px;
+  }
 }
